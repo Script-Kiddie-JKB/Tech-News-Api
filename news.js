@@ -188,9 +188,9 @@ const beebom = async () => {
 
 const about = async () => {
   newsObj["about"] = {
-    info: "this is a unofficial news-api from different popular tech news websites. Feel free to give it a star or add new website",
+    info: "This is a unofficial news-api from different popular tech news websites.",
     "my-github": "https://github.com/Script-Kiddie-JKB",
-    "news-api-github": "https://github.com/Shubhamrawat5/news-api",
+    
   };
 };
 
