@@ -15,8 +15,8 @@ const refresh = async () => {
 setInterval(refresh, 1000 * 60 * 60 * 3); //3 hours (8 times a day)
 
 let hostname = "localhost";
-hostname = "0.0.0.0"; //for heroku
-const port = 80;
+//hostname = "0.0.0.0"; //for heroku
+const port = 3000;
 
 const server = http.createServer((req, res) => {
   const headers = {
