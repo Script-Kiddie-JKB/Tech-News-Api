@@ -4,7 +4,7 @@
   "description": "give json formatted tech news from different websites",
   "main": "app.js",
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
